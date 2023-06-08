@@ -1,0 +1,15 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+<h1>Potepan Shareでまだ体験したことのない旅をしよう</h1>
+
+<%= search_form_for @q,url:search_rooms_path do |f| %>
+
+<%= f.label :adress_cont, 'エリア' %>
+
+<button>検索</button>
+
+<h2>おすすめのエリア</h2>
+<span>東京</span>
+<span>大阪</span>
+<span>京都</span>
+<span>札幌</span>
