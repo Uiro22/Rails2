@@ -1,2 +1,0 @@
-class FacilitiesController < ApplicationController
-end
